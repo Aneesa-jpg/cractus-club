@@ -42,7 +42,7 @@ const CheckoutPage = ({cartItems,total}) => {
     )
 }
 
-const matchStateToProps = (state) => createStructuredSelector({
+const matchStateToProps = () => createStructuredSelector({
     cartItems:selectCartItems,
     total:selectCartTotal
 }
